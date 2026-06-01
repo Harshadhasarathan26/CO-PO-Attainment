@@ -1,73 +1,67 @@
-# Welcome to your Lovable project
+# CO-PO Attainment Portal
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/222fc97e-e5e3-45c9-8c0e-b6f819efa5c0
+The CO-PO Attainment Portal is a web-based application designed to help educational institutions calculate, monitor, and analyze Course Outcome (CO) and Program Outcome (PO) attainment. The system provides an intuitive interface for managing academic data, generating attainment reports, and visualizing outcome-based education metrics.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+* CO and PO attainment calculation
+* Interactive dashboard and data visualization
+* User-friendly interface
+* Responsive design for multiple devices
+* Performance analysis and reporting
+* Scalable and maintainable architecture
 
-**Use Lovable**
+## Getting Started
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/222fc97e-e5e3-45c9-8c0e-b6f819efa5c0) and start prompting.
+### Prerequisites
 
-Changes made via Lovable will be committed automatically to this repo.
+* Node.js
+* npm
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone <repository-url>
+cd <project-folder>
+npm install
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Run the Application
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```sh
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will start in development mode with automatic reloading enabled.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Technologies Used
 
-**Use GitHub Codespaces**
+* Vite
+* TypeScript
+* React
+* shadcn-ui
+* Tailwind CSS
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Project Structure
 
-## What technologies are used for this project?
+* `src/` – Application source code
+* `public/` – Static assets
+* `components/` – Reusable UI components
+* `pages/` – Application pages
+* `styles/` – Styling resources
 
-This project is built with:
+## Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Build the production version using:
 
-## How can I deploy this project?
+```sh
+npm run build
+```
 
-Simply open [Lovable](https://lovable.dev/projects/222fc97e-e5e3-45c9-8c0e-b6f819efa5c0) and click on Share -> Publish.
+The generated files can be deployed to any static web hosting platform.
 
-## Can I connect a custom domain to my Lovable project?
+## Author
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Harsha D, Swetha S, Thya J
